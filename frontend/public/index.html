@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="images/x-icon" href="picture/logo_sq_2.png" />
+    <title>GURU</title>
+    <!-- <link rel="icon" type="image/x-icon" src="picture/logo.png" /> -->
+</head>
+<body>
+    <header>
+        <!-- <h1>GURU</h1> -->
+        <h1><img src="picture/logo.png" height="75"></h1>
+        <h2><marquee direction="left">Your question can be solve with GURU.</marquee></h2>
+    </header>
+    <main>
+        <section id="question-section">
+            <h2>Can GURU answer me ?</h2>
+            <textarea id="question-input" placeholder="Type your question here"></textarea>
+            <button id="ask-button" class="ask_bt">Ask</button>
+        </section>
+    </main>
+    <main>
+        <!-- <br> -->
+        <section id="answer-section">
+            <h2>GURU Answers</h2>
+            <div id="all-output"></div>
+        </section>
+        
+    </main>
+    <script type="module" src="script/main.js"></script>
+</body>
+</html>
